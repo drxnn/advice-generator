@@ -14,16 +14,26 @@
 
     <title>Frontend Mentor | Advice generator app</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="main">
       <section class="container">
-        <h1>Advice#</h1>
-        <p>
+        <h1>ADVICE #</h1>
+        <p id="advice-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
           dolore error cupiditate ut iusto iste?
         </p>
-        <span>_______________"_______________</span>
+        <div class="line-design">
+          <span class="span-line">_______________</span>
+          <span class="span-quotes">"</span>
+          <span class="span-line">_______________</span>
+        </div>
         <button class="btn" type="button">
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -34,5 +44,6 @@
         </button>
       </section>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>

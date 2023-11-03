@@ -20,6 +20,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Manrope";
 }
 /*
     5. Improve media defaults
@@ -64,19 +65,50 @@ h6 {
 /* STYLE */
 .main {
   height: 100vh;
-  background-color: hsl(217, 19%, 24%);
+  background-color: hsl(218, 23%, 16%);
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  color: white;
   align-items: center;
   justify-content: space-around;
   border-radius: 10px;
-  background-color: hsl(218, 23%, 16%);
+  background-color: hsl(217, 19%, 38%);
   width: 25rem;
   height: 15rem;
   margin: auto auto;
+}
+
+.container p {
+  width: 80%;
+  font-weight: 700;
+}
+
+.container h1 {
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 0.2rem;
+  font-family: "Manrope";
+  font-size: 0.7rem;
+}
+
+.line-design {
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.span-line {
+  opacity: 25%;
+  height: fit-content;
+  /* font-size: 1rem; */
+}
+
+.span-quotes {
+  font-size: 2rem;
+  height: fit-content;
 }
 
 /* BUTTON STYLE: */
@@ -86,7 +118,11 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 0;
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 50%;
+}
+.btn:hover {
+  cursor: pointer;
 }
