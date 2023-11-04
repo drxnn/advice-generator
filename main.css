@@ -73,7 +73,7 @@ h6 {
   flex-direction: column;
   color: white;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   border-radius: 10px;
   background-color: hsl(217, 19%, 38%);
   width: 25rem;
@@ -82,8 +82,9 @@ h6 {
 }
 
 .container p {
-  width: 80%;
+  width: 90%;
   font-weight: 700;
+  padding: 0 1rem;
 }
 
 .container h1 {
@@ -94,21 +95,11 @@ h6 {
 }
 
 .line-design {
-  display: flex;
-  height: 3rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.span-line {
-  opacity: 25%;
-  height: fit-content;
-  /* font-size: 1rem; */
-}
-
-.span-quotes {
-  font-size: 2rem;
-  height: fit-content;
+  background-image: url("images/pattern-divider-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 2rem;
+  width: 20rem;
 }
 
 /* BUTTON STYLE: */
@@ -122,6 +113,8 @@ h6 {
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 50%;
+  position: absolute;
+  bottom: 63%;
 }
 .btn:hover {
   cursor: pointer;
