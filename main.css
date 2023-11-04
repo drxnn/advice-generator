@@ -73,12 +73,13 @@ h6 {
   flex-direction: column;
   color: white;
   align-items: center;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   border-radius: 10px;
-  background-color: hsl(217, 19%, 38%);
+  background-color: hsl(217, 19%, 24%);
   width: 25rem;
   height: 15rem;
   margin: auto auto;
+  gap: 1.5rem;
 }
 
 .container p {
@@ -88,6 +89,7 @@ h6 {
 }
 
 .container h1 {
+  margin-top: 1rem;
   color: hsl(150, 100%, 66%);
   letter-spacing: 0.2rem;
   font-family: "Manrope";
@@ -100,6 +102,14 @@ h6 {
   background-position: center;
   height: 2rem;
   width: 20rem;
+}
+
+.paragraphHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 6rem;
 }
 
 /* BUTTON STYLE: */
